@@ -1,4 +1,5 @@
-onfigure a new Nginx server so that /redirect_me is redirecting to another page
+#!/usr/bin/env bash
+# configure a new Nginx server so that /redirect_me is redirecting to another page
 
 sudo apt-get -y update
 sudo apt-get -y install nginx
