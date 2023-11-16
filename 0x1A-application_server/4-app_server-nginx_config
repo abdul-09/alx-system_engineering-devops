@@ -1,6 +1,6 @@
 server {
     listen 80;
-    server_name 18.234.105.167;
+    server_name 35.153.226.167;
     add_header X-Served-By $HOSTNAME;
 
 
@@ -32,4 +32,3 @@ server {
         try_files $uri $uri/ =404;
 }
 }
-gi
